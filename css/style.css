@@ -159,7 +159,6 @@ article{
 .recycle{
     position:absolute;
     right: 24%;
-    background-color: gold;
     background-image: url(../images/recycle.jpeg);
     background-size: cover;
     background-position: center center;
@@ -171,7 +170,6 @@ article{
     position: absolute;
     right: 0;
     top: 9rem;
-    background-color: plum;
     background-image: url(../images/compositions.jpeg);
     background-size: cover;
     background-position: center center;
@@ -187,7 +185,6 @@ article{
 .advice{
     position: absolute;
     left: 24%;
-    background-color: aqua;
     background-image: url(../images/advice.jpeg);
     background-size: cover;
     background-position: center center;
@@ -198,7 +195,6 @@ article{
 .used{
     position: absolute;
     top: 9rem;
-    background-color: cadetblue;
     background-image: url(../images/used.jpeg);
     background-size: cover;
     background-position: 2px 20px;
@@ -215,7 +211,6 @@ article{
 .professionals{
     position:absolute;
     right: 24%;
-    background-color: darkgreen;
     background-image: url(../images/professionals.jpeg);
     background-size: cover;
 }
@@ -226,7 +221,6 @@ article{
     position: absolute;
     right: 0;
     top: 9rem;
-    background-color: darkolivegreen;
     background-image: url(../images/video.png);
     background-size: cover;
 }
