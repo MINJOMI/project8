@@ -95,7 +95,7 @@ article{
 .content_set{
     width: 85%;
 }
-.contnet1, .content2, .content3{
+.content1, .content2, .content3{
     position: relative;
     width: 100%;
     height: 750px;
@@ -189,7 +189,7 @@ article{
     left: 24%;
     background-color: aqua;
     background-image: url(../images/advice.jpeg);
-    background-size: 150;
+    background-size: cover;
     background-position: center center;
 }
 .advice:hover{
@@ -242,10 +242,12 @@ article{
 .white{
     box-sizing: border-box;
     background-color: #f2f2f2;
+    overflow-y: hidden;
 }
 .blue{
     box-sizing:border-box;
     background-color: #d3e2e6;
+    overflow-y: hidden;
 }
 .baby{
     background: url(../images/product1_5.jpg) center center no-repeat;
@@ -396,6 +398,9 @@ footer{
     .maintext p{
         font-size: 1rem;
     }
+    .content_set .textbox{
+        padding-top: 40%;
+    }
     .item-name span{
         display: inline;
         text-align: center;
@@ -410,9 +415,7 @@ footer{
     .item-name span{
         font-size: 0.5rem;
     }
-    .content_set .textbox{
-        padding-top: 35%;
-    }
+
     .bottom-icon{
         width: 30px;
         height: 30px;
@@ -487,8 +490,18 @@ footer{
         text-align: right;
         line-height: 25px;
     }
+    .content1, .content2, .content3{
+        height: 600px;
+    }
+    .textbox{
+        height: 300px;
+        bottom: 5rem;
+    }
     .namebox{
         display: none;
+    }
+    .product_set .maintext{
+        margin-bottom: 0;
     }
     .bottom-footer{
         padding-top: 1rem;
@@ -510,4 +523,6 @@ footer{
         font-size: 0.5rem;
         margin-bottom: 1rem;
     }
+    footer{
+        margin-top: 25%;}
 }
