@@ -88,6 +88,7 @@ article{
     color: #323493;
     font-size: 3rem;
     font-weight: bold;
+    overflow-y: hidden;
 }
 .maintext p{
     font-size: 2rem;
@@ -108,9 +109,12 @@ article{
 }
 .textbox{
     position: absolute;
-    padding-top: 20%;
+    padding-top: 16%;
     height: 450px;
     width: 300px;
+    overflow-y: hidden;
+}
+.textbox h2{
     overflow-y: hidden;
 }
 .morebtn{
